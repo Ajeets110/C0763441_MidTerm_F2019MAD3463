@@ -1,21 +1,21 @@
 import java.util.Scanner;
 
 public class LambtonStringTools {
-    public static void reverse(String a)
-    {
-            System.out.println("Enter string to reverse:");
 
-            Scanner read = new Scanner(System.in);
-            String str = read.nextLine();
-            String reverse = "";
+    public void reverse() {
+        System.out.println("Enter string to reverse:");
+
+        Scanner read = new Scanner(System.in);
+        String str = read.nextLine();
+        String reverse = "";
 
 
-            for(int i = str.length() - 1; i >= 0; i--)
-            {
-                reverse = reverse + str.charAt(i);
-            }
+        for (int i = str.length() - 1; i >= 0; i--) {
+            reverse = reverse + str.charAt(i);
+        }
 
-            System.out.println("Reversed string is:");
-            System.out.println(reverse);
+        System.out.println("Reversed string is:");
+        System.out.println(reverse);
+
     }
 }
