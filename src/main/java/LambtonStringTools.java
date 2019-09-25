@@ -2,20 +2,23 @@ import java.util.Scanner;
 
 public class LambtonStringTools {
 
-    public void reverse() {
-        System.out.println("Enter string to reverse:");
+    public void reverse(String s) {
 
-        Scanner read = new Scanner(System.in);
-        String str = read.nextLine();
         String reverse = "";
 
 
-        for (int i = str.length() - 1; i >= 0; i--) {
-            reverse = reverse + str.charAt(i);
+        for (int i = s.length() - 1; i >= 0; i--) {
+            reverse = reverse + s.charAt(i);
         }
 
         System.out.println("Reversed string is:");
         System.out.println(reverse);
+    }
+
+/**
+    public void binToDec(String s)
+    {
 
     }
+ **/
 }

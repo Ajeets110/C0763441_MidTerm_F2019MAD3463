@@ -4,6 +4,6 @@ public class main
 {
     public static void main(String[] args) {
            LambtonStringTools Rev = new LambtonStringTools();
-           Rev.reverse();
+           Rev.reverse("lambton");
     }
 }
