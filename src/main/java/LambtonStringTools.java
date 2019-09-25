@@ -15,10 +15,17 @@ public class LambtonStringTools {
         System.out.println(reverse);
     }
 
-/**
     public void binToDec(String s)
     {
+        String result = "";
+        char[] binChar = s.toCharArray();
 
+        for (int i = 0; i < binChar.length; i++) {
+            result += Integer.toBinaryString(binChar[i]) + " ";
+        }
+
+        System.out.println(result);
     }
- **/
+
+
 }
