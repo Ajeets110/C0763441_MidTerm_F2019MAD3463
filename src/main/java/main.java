@@ -10,7 +10,7 @@ public class main
         Rev.reverse("lambton");
 
         //B i n a r y   t o   D e c i  m a l
-        str.binToDec("110001");
+        str.binToDec("110");
 
         //
 
