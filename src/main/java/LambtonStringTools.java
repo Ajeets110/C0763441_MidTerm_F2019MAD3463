@@ -17,12 +17,9 @@ public class LambtonStringTools {
 
     public void binToDec(String s)
     {
-        String result = "";
-        char[] binChar = s.toCharArray();
+        int result;
 
-        for (int i = 0; i < binChar.length; i++) {
-            result += Integer.toBinaryString(binChar[i]) + " ";
-        }
+        result = Integer.parseInt(s,2);
 
         System.out.println(result);
     }

@@ -9,10 +9,10 @@ public class main
         //R E V E R S E
         Rev.reverse("lambton");
 
-        //S t r i n g   t o   B i n a r y
-        str.binToDec("9");
+        //B i n a r y   t o   D e c i  m a l
+        str.binToDec("110001");
 
-
+        //
 
 
 
